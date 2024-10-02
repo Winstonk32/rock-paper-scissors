@@ -4,7 +4,7 @@ let computerDisplay = document.getElementById('computerDisplay');
 let resultDisplay = document.getElementById('resultDisplay');
 
 function play(playerChoice) {
-    const computerChoice = choices[Math.floor(Math.random() * 3)];
+    let computerChoice = choices[Math.floor(Math.random() * 3)];
     let result = "";
 
     if (playerChoice === computerChoice) {
